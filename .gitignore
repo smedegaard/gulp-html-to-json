@@ -36,11 +36,9 @@ Session.vim
 # sftp configuration file
 sftp-config.json
 
-# linter settings
-.eslintrc
-
-# dist
-dist/
+# lib
+lib/
 
 # node
 node_modules/
+npm-debug.log

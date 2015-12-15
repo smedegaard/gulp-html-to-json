@@ -1,0 +1,35 @@
+{
+  "name": "gulp-html-to-json",
+  "version": "1.0.0",
+  "description": "a gulp plugin that turns html into a json object - used with the wordpress REST API",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd src; babel ./*.js -d ../lib",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "json",
+    "html",
+    "wordpress",
+    "convert",
+    "transform"
+  ],
+  "author": {
+    "name": "smedegaard",
+    "email": "anders@smdgrd.co",
+    "url": "smdgrd.co"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-core": "^6.3.17",
+    "babel-preset-es2015": "^6.3.13",
+    "gulp-babel": "^6.1.1",
+    "gulp-through": "^0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smedegaard/gulp-html-to-json.git"
+  }
+}
